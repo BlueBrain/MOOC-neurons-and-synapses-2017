@@ -3,8 +3,9 @@ import os
 import efel
 
 
-meanfrequency1_url = 'file://%s/mean_frequency_1.txt' % os.path.abspath(
+meanfrequency1_url = 'file://%s/C14010092-MT-C1.V.50.1.txt' % os.path.abspath(
     os.path.dirname(__file__))
+
 
 time = efel.io.load_fragment(
     '%s#col=1' %
@@ -12,6 +13,12 @@ time = efel.io.load_fragment(
 voltage = efel.io.load_fragment(
     '%s#col=2' %
     meanfrequency1_url)
+
+import matplotlib.pyplot as plt
+plt.plot(time, voltage)
+plt.xlabel('Time (ms)')
+plt.ylabel('Membrane voltage (mV)')
+plt.show()
 
 trace = {}
 trace['T'] = time
