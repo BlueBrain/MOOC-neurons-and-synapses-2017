@@ -1,3 +1,8 @@
+# Exercise 1
+
+The reproduce the trace on the NMC portal website, the following code can be
+used:
+
 stimulus = nrn.h.IClamp(0.5, sec=soma)
 stimulus.dur = 2000 # ms
 stimulus.delay = 700  # ms     
