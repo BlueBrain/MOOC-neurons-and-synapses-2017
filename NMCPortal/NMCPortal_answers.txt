@@ -1,0 +1,35 @@
+# Exercise 1
+
+The reproduce the trace on the NMC portal website, the following code can be
+used:
+
+stimulus = nrn.h.IClamp(0.5, sec=soma)
+stimulus.dur = 2000 # ms
+stimulus.delay = 700  # ms     
+stimulus.amp = 0.691907 # nA
+
+stimulus_hold = nrn.h.IClamp(0.5, sec=soma)
+stimulus_hold.dur = 3000 # ms
+stimulus_hold.delay = 0  # ms     
+stimulus_hold.amp = -0.286011 # nA
+
+nrn.h.tstop = 3000 # ms
+nrn.h.dt = 0.025 # 
+nrn.h.run();
+
+time = nrn.h.time
+voltage = nrn.h.voltage
+
+def plot_tv(time_array, voltage_array, show=True, label=None, constants=[]):
+    import matplotlib.pyplot as plt
+    import numpy
+    plt.plot(time_array, voltage_array, label=label)
+    for constant in constants:
+        plt.plot(time_array, constant*numpy.ones(len(time_array)))
+    plt.xlabel('Time (ms)')
+    plt.ylabel('Membrane voltage (mV)')
+    if show:
+        plt.show()
+    
+
+plot_tv(time, voltage)
