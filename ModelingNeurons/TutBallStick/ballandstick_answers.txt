@@ -1,0 +1,54 @@
+### Exercise 1
+
+# Answer to question:
+Once the voltage reaches the reversal potential of the leak conductance (el_hh),
+the equation becomes Cm dV/dt = gleak(Eleak - Eleak) = 0.
+So the time derivate of the voltage becomes 0.
+
+# Answer for the exercise:
+If dV/dt = 0 the equation become gleak∗(V−Eleak)+Iext = 0
+We know all the variables of this equation except for V, so, in pure SI units:
+V = -Iext/gleak + Eleak = (iclamp.amp*1e-9) / ((soma.gl_hh*1e4)*(soma_area*1e-12)) + (soma.el_hh*1e-3)
+
+
+### Exercise 2
+
+# Answer for the exercise
+You should get something in the range of:
+Linear equation max_voltage = -451.860461*gkbar + 47.203047
+
+The code to get this result:
+soma.gnabar_hh = 0.1
+
+max_voltages = []
+gkbar_range = numpy.arange(.001, 0.012, 0.001)
+import numpy
+for gkbar in gkbar_range:
+    soma.gkbar_hh = gkbar
+
+    neuron.h.run()
+
+    max_voltages.append(max(voltage))
+
+plt.plot(gkbar_range, max_voltages, 'o')
+
+linear_coef = numpy.polyfit(gkbar_range, max_voltages, 1)
+print 'Linear equation max_voltage = %f*gkbar + %f' % tuple([x for x in linear_coef])
+
+plt.plot(gkbar_range, numpy.poly1d(linear_coef)(gkbar_range))
+plt.xlabel('gkbar (S/cm2)')
+plt.ylabel('Maximal AP voltage')
+
+plt.show()
+
+
+### Exercise 3
+
+# Answer to question:
+
+By connecting the dendrite to the soma we have created an extra current sink. 
+The leak current of the dendrite now allows more current to escape from our neuron. 
+Also the capacitance of the dendrite changes the dynamics of the electrical circuit.
+
+# Answer for exercise:
+Increase dend_ra or decrease dend_gl
