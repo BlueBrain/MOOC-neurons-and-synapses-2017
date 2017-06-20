@@ -1,0 +1,18 @@
+*** Exercise 1:
+
+*Solution:
+One of the possible answers: gnabar_soma=0.35
+
+*Comments:
+As you might have noticed, it's not always easy to find values of parameters
+that fit the requirements. This is the reason we use automated methods to find
+good values for the parameters.
+
+** Exercise 2:
+
+*Solution:
+Replace first line with:
+efel_feature_means_ex = {'step1': {'AP_width': 1.3}, 'step2': {'AP_width': 1.6}}
+
+When you ran the optimization this way, you should have found:
+'Best individual: ', [0.6863026089223498, 0.45260818730910185]
