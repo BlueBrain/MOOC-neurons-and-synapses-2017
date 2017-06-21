@@ -1,4 +1,4 @@
-MOOC-neurons-and-synapse-2017
+MOOC-neurons-and-synapses-2017
 
 MOOC-neurons-and-synapses notebooks are licensed under the LGPL, unless noted otherwise, e.g., for external 
 dependencies. See file LGPL.txt for the full license. 
