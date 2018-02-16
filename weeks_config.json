@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Week 2: Neuroinformatics",
+    "description": "",
+    "experience": ["all"],
+    "maturity": null,
+    "access": null,
+    "disabled": false,
+    "picture": {
+      "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/mooc1-image.gif",
+      "alt": "Collab logo "
+    },
+    "next": "mooc_form",
+    "files": [   
+      {
+        "entryname": "Week 2. Graded exercise",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/Neuroinformatics/Neuroinformatics.ipynb",
+        "initial": true,
+        "justcopy": false
+      }
+    ]
+  },
+  {
+    "title": "Week 3: Modeling neurons",
+    "description": "",
+    "experience": ["all"],
+    "maturity": null,
+    "access": null,
+    "disabled": false,
+    "picture": {
+      "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/mooc1-image.gif",
+      "alt": "Collab logo "
+    },
+    "next": "mooc_form",
+    "files": [
+      {
+        "entryname": "Week 3. Modeling neurons",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/ballandstick.ipynb",
+        "justcopy": false,
+        "initial": true
+      },
+      {
+        "entryname": "Week 3. Graded Exercise",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/GradedExercise.ipynb",
+        "justcopy": false
+      },
+      {
+        "entryname": "ballandstick_circuit",
+        "appid": 175,
+        "contenttype": "application/postscript",
+        "extension": ".ai",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/ballandstick_circuit.ai",
+        "justcopy": true
+      },
+      {
+        "entryname": "ballandstick_circuit",
+        "appid": 175,
+        "contenttype": "image/jpeg",
+        "extension": ".jpg",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/ballandstick_circuit.jpg",
+        "justcopy": true
+      },
+      {
+        "entryname": "segments",
+        "appid": 175,
+        "contenttype": "application/postscript",
+        "extension": ".ai",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/segments.ai",
+        "justcopy": true
+      },
+      {
+        "entryname": "segments",
+        "appid": 175,
+        "contenttype": "image/jpeg",
+        "extension": ".jpg",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingNeurons/TutBallStick/segments.jpg",
+        "justcopy": true
+      }
+    ]
+  },
+  {
+    "title": "Week 4: Modeling Synapses",
+    "description": "",
+    "experience": ["all"],
+    "maturity": null,
+    "access": null,
+    "disabled": false,
+    "picture": {
+      "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/mooc1-image.gif",
+      "alt": "Collab logo "
+    },
+    "next": "mooc_form",
+    "files": [
+      {
+        "entryname": "Week 4. Exercise 1",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingSynapses/Week4_Exercises/Week%204.%20Exercise%201.ipynb",
+        "justcopy": false,
+        "initial": true
+      },
+      {
+        "entryname": "Week 4. Exercise 2",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingSynapses/Week4_Exercises/Week%204.%20Exercise%202.ipynb",
+        "justcopy": false
+      },
+      {
+        "entryname": "Week 4. Exercise 3",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingSynapses/Week4_Exercises/Week%204.%20Exercise%203.ipynb",
+        "justcopy": false
+      },
+      {
+        "entryname": "Week 4. Graded assignment",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ModelingSynapses/Week4_Exercises/Week%204.%20Graded%20assignment.ipynb",
+        "justcopy": false
+      }
+    ]
+  },
+  {
+    "title": "Week 5: Constraining models",
+    "description": "",
+    "experience": ["all"],
+    "maturity": null,
+    "access": null,
+    "disabled": false,
+    "picture": {
+      "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/mooc1-image.gif",
+      "alt": "Collab logo "
+    },
+    "next": "mooc_form",
+    "files": [
+       {
+        "entryname": "Week 5. Constraining models",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ConstrModels/TutBallStickOpt/ballandstickopt.ipynb",
+        "justcopy": false,
+        "initial": true
+      },
+      {
+        "entryname": "Week 5. Graded exercise",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/ConstrModels/TutBallStickOpt/GradedExercise.ipynb",
+        "justcopy": false
+      }
+    ]
+  },
+  {
+    "title": "Week 6: NMC portal",
+    "description": "",
+    "experience": ["all"],
+    "maturity": null,
+    "access": null,
+    "disabled": false,
+    "picture": {
+      "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/mooc1-image.gif",
+      "alt": "Collab logo "
+    },
+    "next": "mooc_form",
+    "files": [
+      {
+        "entryname": "Week 6. NMC portal",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/NMCPortal/NMCPortal.ipynb",
+        "justcopy": false,
+        "initial": true
+      },
+      {
+        "entryname": "NMCWeb",
+        "appid": 175,
+        "contenttype": "image/jpeg",
+        "extension": ".png",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/NMCPortal/NMCWeb.png",
+        "justcopy": true
+      },
+      {
+        "entryname": "Week 6. Final graded assignment",
+        "appid": 175,
+        "contenttype": "x-ipynb+json",
+        "extension": ".ipynb",
+        "file": "https://raw.githubusercontent.com/BlueBrain/MOOC-neurons-and-synapses-2017/master/NMCPortal/Final%20graded%20assignment.ipynb",
+        "justcopy": false
+      }
+    ]
+  }
+]
