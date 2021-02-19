@@ -88,7 +88,6 @@ STATE {
                  : decay kinetics with tau_d_NMDA
 
     : State variables for TM model
-    R            : running fraction of vesicle pool
     Use          : running release probability
 
 }
@@ -119,6 +118,7 @@ ASSIGNED {
     factor_AMPA
     factor_NMDA
     rng
+    R : running fraction of vesicle pool
 }
 
 : Definition of initial conditions
