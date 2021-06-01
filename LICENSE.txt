@@ -5,7 +5,7 @@ dependencies. See file LGPL.txt for the full license.
 External dependencies are either LGPL or BSD-licensed. 
 See file AUTHORS.txt for further details.
 
-Copyright (C) 2005-2021, Blue Brain Project/EPFL. 
+Copyright (C) Blue Brain Project/EPFL 2005-2021
 
 This program is free software: you can redistribute it and/or modify it under 
 the terms of the GNU Lesser General Public License as published by the 
