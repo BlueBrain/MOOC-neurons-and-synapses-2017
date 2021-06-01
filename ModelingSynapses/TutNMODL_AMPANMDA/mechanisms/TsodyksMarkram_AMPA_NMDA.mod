@@ -26,7 +26,7 @@ NEURON {
     RANGE tau_r_NMDA, tau_d_NMDA
     RANGE mg, gmax_AMPA, gmax_NMDA
     RANGE tau_rec, tau_facil, U1
-    RANGE i, i_AMPA, i_NMDA, g_AMPA, g_NMDA, g, e
+    RANGE i, i_AMPA, i_NMDA, g_AMPA, g_NMDA, g, e, R
     NONSPECIFIC_CURRENT i
 }
 
